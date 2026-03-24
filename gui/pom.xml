@@ -10,7 +10,7 @@
   <packaging>jar</packaging>
 
   <properties>
-    <javafx.version>24-ea+5</javafx.version>
+    <javafx.version>25</javafx.version>
     <mainClassName>se.su.inlupp.Gui</mainClassName>
   </properties>
 
@@ -59,7 +59,7 @@
       <plugin>
         <groupId>com.gluonhq</groupId>
         <artifactId>gluonfx-maven-plugin</artifactId>
-        <version>1.0.23</version>
+        <version>1.0.28</version>
         <configuration>
           <mainClass>${mainClassName}</mainClass>
         </configuration>
